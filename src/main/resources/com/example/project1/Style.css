@@ -1,0 +1,96 @@
+.root {
+    -fx-background-image: url('back.jpg');
+}
+
+
+.GameRoot{
+
+}
+
+
+.button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: white;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: Serif;
+    -fx-background-color: #ff5353;
+    -fx-font-size: 24;
+}
+
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.text-area {
+    -fx-font-family: Serif;
+    -fx-font-size: 24;
+    -fx-text-fill: #000000;
+}
+
+#grid {
+    -fx-background-color: white;
+    -fx-font-size: 16;
+    -fx-cell-size: 5px 5px;
+    -fx-alignment: center;
+    -fx-padding: 10 10 10 10;
+    -fx-text-alignment: center;
+}
+
+#lablesGrid {
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
+
+.text-area .content {
+    -fx-background-color: transparent;
+}
+
+
+.textField {
+    -fx-border-radius: 10;
+    -fx-border-color: white;
+    -fx-font-family: Serif;
+    -fx-font-size: 16;
+    -fx-text-alignment: center;
+}
+
+
+#cir {
+    -fx-fill: white;
+    -fx-stroke: green;
+    -fx-stroke-width: 3;
+}
+
+.button:hover{
+    -fx-border-color: red;
+}
+
+.button:pressed {
+    -fx-background-color: red;
+}
+
+
+
+.topMessage {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-radius: 10;
+    -fx-border-color: white;
+    -fx-font-family: Serif;
+    -fx-font-size: 24;
+    -fx-text-alignment: center;
+}
+
+
+#lables {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-radius: 10;
+    -fx-border-color: white;
+    -fx-font-family: Serif;
+    -fx-font-size: 24;
+    -fx-text-alignment: center;
+}
